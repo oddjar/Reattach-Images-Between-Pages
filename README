@@ -1,0 +1,22 @@
+=== Reattach Images Between Pages ===
+Contributors: johnathonwilliams
+Donate link: url
+Tags: images, media, uploads, attachments
+Requires at least: 3.0
+Tested up to: 3.0
+Stable tag: trunk
+ 
+Move image uploads (detach and reattach) between pages without uploading them again.
+
+== Description ==
+
+This plugin adds a drop-down menu to the Media > Edit screen that lists all of the pages in your WordPress site, and allows you to choose between them. Saving your selection reassigns the image attachment to the selected page.
+
+Note that the drop-down menu only appears for images that were originally attached to a page. It will not appear inside the Media > Edit screen for images that were originally assigned to a post.
+
+This code draws heavily on Andy Blackwell’s tutorial on creating custom fields for image attachments at Nettuts, which was the only documentation I could find on the attachment_fields_to_edit and attachment_fields_to_save hooks.
+
+== Installation ==
+
+1. Upload `reattach_images.php` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
